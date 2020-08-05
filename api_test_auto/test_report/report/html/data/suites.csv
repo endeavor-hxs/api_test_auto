@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_case.test_case_01#test_01","0",""
+"failed","test_case.test_case_01#test_02","1",""
+"broken","test_case.test_before#test_lo","2",""
+"passed","test_case.test_case_01#test_03","0",""

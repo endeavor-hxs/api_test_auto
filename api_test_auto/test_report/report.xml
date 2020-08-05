@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="2" hostname="DESKTOP-6B7PLFO" name="pytest" skipped="0" tests="4" time="0.382" timestamp="2020-06-24T22:47:45.593834"><testcase classname="test_case.test_before" file="test_case\test_before.py" line="7" name="test_lo" time="0.020"><failure message="TypeError: cannot unpack non-iterable NoneType object">def test_lo():
+        url = server_ip()+&apos;/register&apos;   #调用函数，这里要注意需要添加括号
+    
+&gt;       username,password = get_excel_row(1)        #读取文件的信息，从第二行开始
+E       TypeError: cannot unpack non-iterable NoneType object
+
+..\test_case\test_before.py:11: TypeError</failure></testcase><testcase classname="test_case.test_case_01" file="test_case\test_case_01.py" line="2" name="test_01" time="0.002"><system-out>test_01
+</system-out></testcase><testcase classname="test_case.test_case_01" file="test_case\test_case_01.py" line="6" name="test_02" time="0.001"><failure message="assert 1 == 2">def test_02():
+        print(&apos;test_02&apos;)
+&gt;       assert 1 == 2
+E       assert 1 == 2
+
+..\test_case\test_case_01.py:9: AssertionError</failure><system-out>test_02
+</system-out></testcase><testcase classname="test_case.test_case_01" file="test_case\test_case_01.py" line="10" name="test_03" time="0.002"><system-out>test_03
+</system-out></testcase></testsuite></testsuites>

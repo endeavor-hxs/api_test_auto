@@ -1,0 +1,80 @@
+{
+  "713f940ca2dfa6368c36a1ad6dc63019" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2adc59252b5d4e4",
+      "status" : "broken",
+      "statusDetails" : "TypeError: cannot unpack non-iterable NoneType object",
+      "time" : {
+        "start" : 1593010066251,
+        "stop" : 1593010066253,
+        "duration" : 2
+      }
+    } ]
+  },
+  "eac148731659511a8a2420eefbfd418b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7de5c76bfa301ea4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593010066308,
+        "stop" : 1593010066308,
+        "duration" : 0
+      }
+    } ]
+  },
+  "67a9398156540bebfc41a2248395b49b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "747ce4503ba39005",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 2",
+      "time" : {
+        "start" : 1593010066298,
+        "stop" : 1593010066299,
+        "duration" : 1
+      }
+    } ]
+  },
+  "c9b2a4d5d1fd22a09b5ad90c40e9f44d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a567078958cedd26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593010066295,
+        "stop" : 1593010066295,
+        "duration" : 0
+      }
+    } ]
+  }
+}
